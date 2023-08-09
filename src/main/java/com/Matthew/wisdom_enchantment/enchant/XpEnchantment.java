@@ -8,7 +8,7 @@ import org.jetbrains.annotations.NotNull;
 
 public class XpEnchantment extends Enchantment {
     public XpEnchantment() {
-        super(Enchantment.Rarity.RARE, EnchantmentCategory.WEAPON, new EquipmentSlot[]{EquipmentSlot.MAINHAND});
+        super(Rarity.VERY_RARE, EnchantmentCategory.WEAPON, new EquipmentSlot[]{EquipmentSlot.MAINHAND});
     }
     @Override
     public int getMaxLevel() {

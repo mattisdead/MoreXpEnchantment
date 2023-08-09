@@ -1,7 +1,6 @@
 package com.Matthew.wisdom_enchantment.event;
 
 import com.Matthew.wisdom_enchantment.WisdomEnchantmentMod;
-import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.EnchantmentHelper;
@@ -26,13 +25,13 @@ public class ModEvents {
                         if (key.getFullname(1).toString().contains(WisdomEnchantmentMod.MODID + ".wisdom")){
                             int level = EnchantmentHelper.getTagEnchantmentLevel(key, event.getAttackingPlayer().getMainHandItem());
                             if(level == 1){
-                                event.setDroppedExperience((int) Math.round(event.getEntity().getExperienceReward() * 1.5));
+                                event.setDroppedExperience((int) Math.round(event.getEntity().getExperienceReward() * 1.2));
                             }
                             else if(level == 2){
-                                event.setDroppedExperience(event.getEntity().getExperienceReward() * 2);
+                                event.setDroppedExperience((int) Math.round(event.getEntity().getExperienceReward() * 1.5));
                             }
                             else if(level == 3){
-                                event.setDroppedExperience((int) Math.round(event.getEntity().getExperienceReward() * 2.5));
+                                event.setDroppedExperience((int) Math.round(event.getEntity().getExperienceReward() * 1.7));
                             }
                             break;
                         }
