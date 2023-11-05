@@ -1,6 +1,6 @@
-package com.Matthew.wisdom_enchantment;
+package com.Chuhaister.wisdom_enchantment;
 
-import com.Matthew.wisdom_enchantment.enchant.ModEnchantments;
+import com.Chuhaister.wisdom_enchantment.enchant.ModEnchantments;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.api.distmarker.Dist;

@@ -1,6 +1,6 @@
-package com.Matthew.wisdom_enchantment.enchant;
+package com.Chuhaister.wisdom_enchantment.enchant;
 
-import com.Matthew.wisdom_enchantment.WisdomEnchantmentMod;
+import com.Chuhaister.wisdom_enchantment.WisdomEnchantmentMod;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;

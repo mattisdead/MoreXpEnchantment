@@ -1,4 +1,4 @@
-package com.Matthew.wisdom_enchantment.enchant;
+package com.Chuhaister.wisdom_enchantment.enchant;
 
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.enchantment.Enchantment;
